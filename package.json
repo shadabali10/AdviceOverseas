@@ -1,0 +1,63 @@
+{
+  "name": "advise-overseas",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.3.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.22.0",
+    "firebase": "^8.10.0",
+    "gh-pages": "^6.0.0",
+    "react": "^17.0.2",
+    "react-circular-progressbar": "^2.0.4",
+    "react-countup": "^6.4.2",
+    "react-dom": "^17.0.2",
+    "react-faq-component": "^1.3.1",
+    "react-icons": "^4.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
+    "react-spring": "^9.2.4",
+    "react-table": "^7.7.0",
+    "react-visibility-sensor": "^5.1.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.4",
+    "styled-components": "^5.3.1",
+    "sweetalert": "^2.1.2",
+    "swiper": "^6.8.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "craco --openssl-legacy-provider start",
+    "build": "craco --openssl-legacy-provider build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.7",
+    "postcss": "^7.0.38",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
+  }
+}
