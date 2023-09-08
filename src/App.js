@@ -26,6 +26,7 @@ import ASIA from "./Components/Schools/ASIA/ASIA";
 import Documents from "./Components/Documents/Documents";
 import Test from "./Components/Test";
 import Materials from "./Components/Materials/Materials";
+import Gallery from "./Components/Gallery/Gallery";
 
 function App() {
   const [isOpen, setisOpen] = useState(false);
@@ -61,6 +62,7 @@ function App() {
           <Route exact path="/australia" component={Australia} />
           <Route exact path="/how-to-apply" component={HowToApply} />
           <Route exact path="/documents" component={Documents} />
+          <Route exact path="/gallery" component={Gallery} />
           <Route exact path="/pte" component={PTE} />
           <Route exact path="/about" component={About} />
           <Route exact path="/ielts" component={IELTS} />
